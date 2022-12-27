@@ -1,0 +1,115 @@
+*{
+   font-family: 'Poppins', sans-serif;
+}
+ul{
+
+    margin: 0%;
+    padding:0%;
+    list-style: none;
+    height: 36px;
+    line-height: 34px;
+    background-color: rgb(176, 233, 245);
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+ }
+li{
+    float: right;
+    border: 1px solid rgb(169, 234, 248);
+      border-radius: 0%;
+      border-radius: 20px;
+ }
+ a{
+    display:inline-block;
+    padding: 0 28px;
+    color:rgb(254, 254, 255);
+    text-decoration: none;
+ }
+ .active ul li a:hover{
+
+    color: rgb(234, 178, 49);
+
+ }
+ 
+ .container{
+   max-width: 80px;
+   max-height: 50px;
+   align-items: center;
+   margin: auto;
+   padding: 175px;
+   margin-left:150px;
+}
+.container .products-container{
+   display: flex;
+   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+   gap:3rem;
+  
+}
+.container .products-container .product{
+   border-radius: 50px;
+  position: relative;
+   text-align: center;
+   padding:3rem 2rem;
+   background: rgb(176, 233, 245);
+   box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+   outline: .1rem solid rgb(251, 250, 250);
+   outline-offset: -1.5rem;
+   cursor: pointer;
+}
+.container .products-container .product:hover{
+   outline: .2rem solid rgb(234, 178, 49);
+   outline-offset: 0;
+}
+
+.container .products-container .product img{
+   height: 10rem;
+  
+}
+
+.container .products-container .product:hover img{
+   transform: scale(.9);
+}
+
+.container .products-container .product h3{
+   padding:.2rem 0;
+   font-size: 1rem;
+   color:rgb(111, 59, 234);
+}
+
+.container .products-container .product:hover h3{
+   color:#efc53c;
+}
+html{
+   font-size: 62.5%;
+   overflow-x: hidden;
+   
+}
+
+body{
+   background: rgb(241, 239, 239);
+   
+}
+.buttons{
+
+   padding: 20px 20px;
+}
+.buttons a{
+   width: 120px;
+   height: 10px;
+   background-color:rgb(108, 158, 245);
+   color: white;
+   padding: 15px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   border-radius: 15px;
+   color: rgb(253, 255, 255);
+   text-transform: uppercase;
+   cursor: pointer;
+   margin: 5px;
+
+}
+.bt1:hover{
+   background-color:rgb(169, 234, 248);
+}
+
+
